@@ -1,10 +1,9 @@
+
 {
   "id": "fluid-monk",
   "title": "Fluid Monk",
+  "description": "PF2e Monk homebrew module",
   "version": "0.0.1",
-  "url": "https://github.com/cherot1k/foundary-fluid-monk",
-  "manifest": "https://raw.githubusercontent.com/cherot1k/foundary-fluid-monk/main/module.json",
-  "download": "https://github.com/cherot1k/foundary-fluid-monk/releases/download/v0.0.1/fluid-monk.zip"
   "compatibility": {
     "minimum": "14",
     "verified": "14"
@@ -12,12 +11,16 @@
   "authors": [
     {
       "name": "kunter555",
-      "discord": "rubble_",
-      "flags": {}
+      "discord": "rubble_"
     }
   ],
-  "flags": {
-    "canUpload": true
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system"
+      }
+    ]
   },
   "packs": [
     {
@@ -25,13 +28,14 @@
       "label": "Fluid Monk",
       "path": "packs/fluid-monk",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+      }
     }
   ],
-  "description": ""
+  "url": "https://github.com/cherot1k/foundary-fluid-monk",
+  "manifest": "https://raw.githubusercontent.com/cherot1k/foundary-fluid-monk/main/module.json",
+  "download": "https://github.com/cherot1k/foundary-fluid-monk/releases/download/v0.0.1/fluid-monk.zip"
 }
