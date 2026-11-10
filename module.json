@@ -1,0 +1,34 @@
+{
+  "id": "fluid-monk",
+  "title": "Fluid Monk",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "kunter555",
+      "discord": "rubble_",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "fluid-monk",
+      "label": "Fluid Monk",
+      "path": "packs/fluid-monk",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "description": ""
+}
