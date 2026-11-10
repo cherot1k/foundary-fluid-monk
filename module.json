@@ -2,6 +2,9 @@
   "id": "fluid-monk",
   "title": "Fluid Monk",
   "version": "0.0.1",
+  "url": "https://github.com/cherot1k/foundary-fluid-monk",
+  "manifest": "https://raw.githubusercontent.com/cherot1k/foundary-fluid-monk/main/module.json",
+  "download": "https://github.com/cherot1k/foundary-fluid-monk/releases/download/v0.0.1/fluid-monk.zip"
   "compatibility": {
     "minimum": "14",
     "verified": "14"
